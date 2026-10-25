@@ -12,7 +12,7 @@
     <link rel="canonical" href="https://jeenashera.online/a/earreach.html" />
     
     <!-- ===== FAVICON & LOGO ===== -->
-    <link rel="icon" type="image/png" href="../assests/a/earreach.png" />
+    <link rel="icon" type="image/png" href="/assests/a/earreach.png" />
     
     <!-- ===== OPEN GRAPH ===== -->
     <meta property="og:title" content="EarReach · Smart Bluetooth Audio Utility App" />
@@ -135,9 +135,10 @@
         .screenshot-wrapper {
             border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow);
             transition: var(--transition); background: var(--bg-card); border: 1px solid var(--border);
+            display: flex; align-items: center; justify-content: center; padding: 40px;
         }
         .screenshot-wrapper:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
-        .screenshot-wrapper img { width: 100%; height: auto; display: block; }
+        .screenshot-wrapper img { width: 100%; max-width: 250px; height: auto; display: block; object-fit: contain; }
         
         .info-box h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 12px; }
         .info-box p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8; margin-bottom: 16px; }
@@ -164,7 +165,7 @@
             padding: 16px 48px; background: var(--gradient); border: none;
             border-radius: var(--radius-full); color: white; font-size: 1.1rem; font-weight: 700;
             cursor: pointer; transition: var(--transition); text-decoration: none;
-            box-shadow: 0 4px 24px rgba(108, 99, 255, 0.3);
+            box-shadow: 0 4px 24px rgba(108, 99, 255, 0.3); width: 100%;
         }
         .btn-download:hover { transform: translateY(-3px); box-shadow: 0 8px 36px rgba(108, 99, 255, 0.45); }
         .btn-download:active { transform: scale(0.96); }
@@ -247,12 +248,12 @@
         <!-- ===== NAVBAR ===== -->
         <nav class="navbar">
             <a href="/" class="logo">
-                <img src="../assests/logo.png" alt="Logo" class="logo-img" />
+                <img src="/assests/logo.png" alt="Logo" class="logo-img" />
                 <span class="logo-text">JEENASH<span class="highlight">ERA</span></span>
             </a>
             <div class="nav-links">
                 <a href="/">Home</a>
-                <a href="/tools/app.html">All Apps</a>
+                <a href="/tools/apps.html">All Apps</a>
                 <a href="/store/">Store</a>
             </div>
         </nav>
@@ -278,7 +279,7 @@
                 <!-- Left: Screenshot -->
                 <div class="screenshot-box">
                     <div class="screenshot-wrapper">
-                        <img src="../assests/a/earreach.png" alt="EarReach App Logo" style="object-fit: contain; padding: 40px; background: var(--bg-card);" />
+                        <img src="/assests/a/earreach.png" alt="EarReach App Logo" />
                     </div>
                 </div>
 
@@ -319,11 +320,11 @@
                     <div class="download-section">
                         <p class="download-info">
                             <i class="fas fa-android" aria-hidden="true"></i>
-                            <strong>Version:</strong> 1.0.0 &nbsp;·&nbsp; <strong>Size:</strong> 16.9 MB
+                            <strong>Version:</strong> 1.0.0 &nbsp;·&nbsp; <strong>Size:</strong> 23.25 MB
                         </p>
                         
                         <!-- 🔴 YAHAN APNA MEDIAFIRE LINK DAALO -->
-                        <a href="https://devuploads.com/icyevwtkwfoz/earreach.apk" target="_blank" rel="noopener noreferrer" class="btn-download">
+                        <a href="https://gofile.io/d/uZlcywti" target="_blank" rel="noopener noreferrer" class="btn-download">
                             <i class="fas fa-download" aria-hidden="true"></i>
                             Download APK
                             <span class="btn-sub">Free · Android</span>
